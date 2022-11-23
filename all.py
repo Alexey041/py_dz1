@@ -86,7 +86,7 @@ tochka2 = input().split(' ')
 x2 = float(tochka2[0])
 y2 = float(tochka2[1])
 
-distance = float((x2 - x1)**2 + (y2 - y1)**2)
+distance = (x2 - x1)**2 + (y2 - y1)**2
 
 import math
 result = math.sqrt(distance)
